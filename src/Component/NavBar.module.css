@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: yellow;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.btn {
+  position: relative;
+  background-color: orange;
+  border: 0;
+  height: 100%;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
