@@ -13,3 +13,20 @@
 .btn:hover {
   cursor: pointer;
 }
+
+.parent {
+  border: 2px black solid;
+  height: 100px;
+  width: 100px;
+}
+
+.parent .date {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.parent .status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

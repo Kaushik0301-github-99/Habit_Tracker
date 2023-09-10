@@ -24,7 +24,7 @@ const NavBar = () => {
         habitTitle: habitTitle.value,
         habitDescription: habitDescription.value,
         time: dateTime12h,
-        habitStatus: NOT_MARKED,
+        habitStatus: { [new Date().getDate()]: NOT_MARKED },
       },
     });
     console.log("habit items in navbar.js", habitItem);
